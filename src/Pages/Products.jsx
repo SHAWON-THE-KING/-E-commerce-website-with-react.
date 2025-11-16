@@ -17,7 +17,10 @@ const Products = () => {
         <>
             <div className='py-20'>
                 <div className="container">
-                    <div className='flex flex-wrap justify-between gap-10'>
+
+
+
+                    <div className='flex flex-wrap justify-center md:justify-between gap-10'>
                         {
                             product.map((item) => (
                                 <Card
